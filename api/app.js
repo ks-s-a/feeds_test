@@ -1,11 +1,13 @@
 'use strict'
 
+const multiparty = require('connect-multiparty')
+const cors = require('cors')
 const express = require('express')
-const bodyParser = require('body-parser')
 
 const app = express()
 
-app.use( bodyParser.urlencoded({ extended: true }) )
+app.use( multiparty() )
+app.use( cors() )
 
 module.exports = app
 

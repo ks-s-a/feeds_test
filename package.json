@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.16.0",
+    "connect-multiparty": "^2.0.0",
+    "cors": "^2.8.1",
     "csv-parse": "^1.2.0",
     "mongoose": "^4.8.1",
     "request": "^2.79.0",
